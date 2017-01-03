@@ -6,7 +6,9 @@ server:
 ---
 spring:
   profiles: development
- datasource:
+
+
+ spring.datasource:
   driverClassName: com.mysql.jdbc.Driver
   url: jdbc:mysql://mysql:3306/sampledb
   username: root
