@@ -6,14 +6,11 @@ server:
 ---
 spring:
   profiles: development
-
-
- spring.datasource:
-  driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://mysql:3306/sampledb
-  username: root
-  password: sa
-  show_sql: false
-  ddl-auto: none
+datasource:
+  db-person:
+      url: jdbc:mysql://mysql:3306/sampledb
+      username: root
+      password: sa
+      driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 9000
