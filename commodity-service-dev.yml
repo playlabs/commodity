@@ -6,10 +6,22 @@ server:
 ---
 spring:
   profiles: development
-datasource:
-      url: jdbc:mysql://mysql:3306/sampledb
-      username: root
-      password: sa
-      driver-class-name: com.mysql.jdbc.Driver
+spring:
+  thymeleaf:
+  cache: false
+# Database
+db:
+ driver: com.mysql.jdbc.Driver
+ url: jdbc:mysql://localhost:3306/sakila
+ username: root
+ password: password
+# Hibernate
+hibernate:
+  dialect: org.hibernate.dialect.MySQL5Dialect
+  show_sql: true
+  hbm2ddl: 
+   auto: create
+entitymanager :
+  packagesToScan: netgloo
 server:
   port: 9000
