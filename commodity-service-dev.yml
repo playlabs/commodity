@@ -5,9 +5,7 @@ server:
 
 ---
 spring:
-  profiles: development
- thymeleaf:
-  cache: false
+  profiles: development 
 # Database
 db:
  driver: com.mysql.jdbc.Driver
