@@ -6,7 +6,7 @@ server:
 ---
 spring:
   profiles: development
-datasource:
+      datasource:
       url: jdbc:mysql://mysql:3306/sampledb
       username: root
       password: sa
