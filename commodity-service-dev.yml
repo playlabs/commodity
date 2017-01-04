@@ -6,8 +6,7 @@ server:
 ---
 spring:
   profiles: development
-spring:
-  thymeleaf:
+ thymeleaf:
   cache: false
 # Database
 db:
