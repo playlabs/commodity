@@ -1,4 +1,12 @@
+configuration:
+  projectName: commodity-service
+server:
+  port: 8888
+
+---
+
 spring:
+   profiles: development
  datasource:
   url: jdbc:mysql://localhost:3306/sakila
   username: root
