@@ -8,7 +8,7 @@ server:
 spring:
  profiles: development
  datasource:
-  url: jdbc:mysql://localhost:3306/qa_sakila
+  url: jdbc:mysql://localhost:3306/sakila
   username: root
   password: password
   driver-class-name: com.mysql.jdbc.Driver
@@ -18,3 +18,19 @@ spring:
    ddl-auto: update
 server:
   port: 9013
+
+---
+
+spring:
+ profiles: qa
+ datasource:
+  url: jdbc:mysql://localhost:3306/qa_sakila
+  username: root
+  password: password
+  driver-class-name: com.mysql.jdbc.Driver
+ jpa:
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+server:
+  port: 9012
