@@ -1,5 +1,5 @@
 configuration:
-  projectName: commodity-test
+  projectName: commodity-test1
 server:
   port: 8888
 
