@@ -21,7 +21,7 @@ server:
 logging:
   level:
     org.springframework.web: DEBUG
-    guru.springframework.controllers: DEBUG
+    org.springframework.controllers: DEBUG
     org.hibernate: DEBUG
 ---
 
@@ -41,5 +41,5 @@ server:
 logging:
   level:
     org.springframework.web: INFO
-    guru.springframework.controllers: INFO
+    org.springframework.controllers: INFO
     org.hibernate: INFO
