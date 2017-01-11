@@ -4,7 +4,7 @@ server:
   port: 8888
 logging:
   level:
-    ROOT: DEBUG
+    ROOT: INFO
 ---
 
 spring:
@@ -22,7 +22,7 @@ server:
   port: 9014
 logging:
   level:
-    ROOT: DEBUG
+    ROOT: INFO
 ---
 
 spring:
@@ -40,4 +40,4 @@ server:
   port: 9012
 logging:
   level:
-    ROOT: DEBUG
+    ROOT: INFO
