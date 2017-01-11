@@ -2,9 +2,7 @@ configuration:
   projectName: commodity-test1
 server:
   port: 8888
-logging:
-  level:
-    ROOT: DEBUG
+
 ---
 
 spring:
@@ -22,7 +20,9 @@ server:
   port: 9014
 logging:
   level:
-    ROOT: DEBUG
+    org.springframework.web: DEBUG
+    guru.springframework.controllers: DEBUG
+    org.hibernate: DEBUG
 ---
 
 spring:
@@ -40,4 +40,6 @@ server:
   port: 9012
 logging:
   level:
-    ROOT: DEBUG
+    org.springframework.web: DEBUG
+    guru.springframework.controllers: DEBUG
+    org.hibernate: DEBUG
