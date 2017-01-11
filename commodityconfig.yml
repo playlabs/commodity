@@ -2,7 +2,9 @@ configuration:
   projectName: commodity-test1
 server:
   port: 8888
-
+logging:
+  level:
+    ROOT: DEBUG
 ---
 
 spring:
@@ -36,3 +38,6 @@ spring:
    ddl-auto: update
 server:
   port: 9012
+logging:
+  level:
+    ROOT: DEBUG
