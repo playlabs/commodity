@@ -22,7 +22,7 @@ logging:
   level:
     org.springframework.web: DEBUG
     guru.springframework.controllers: DEBUG
-    org.hibernate: INFO
+    org.hibernate: DEBUG
 ---
 
 spring:
@@ -40,6 +40,6 @@ server:
   port: 9012
 logging:
   level:
-    org.springframework.web: DEBUG
-    guru.springframework.controllers: DEBUG
-    org.hibernate: DEBUG
+    org.springframework.web: INFO
+    guru.springframework.controllers: INFO
+    org.hibernate: INFO
