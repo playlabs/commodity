@@ -13,7 +13,7 @@ spring:
   password: password
   driver-class-name: com.mysql.jdbc.Driver
  jpa:
-  show-sql: true
+  show-sql: false
   hibernate:
    ddl-auto: insert
 server:
@@ -29,7 +29,7 @@ spring:
   password: password
   driver-class-name: com.mysql.jdbc.Driver
  jpa:
-  show-sql: true
+  show-sql: false
   hibernate:
    ddl-auto: update
 server:
