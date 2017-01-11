@@ -18,7 +18,9 @@ spring:
    ddl-auto: insert
 server:
   port: 9014
-
+logging:
+  level:
+    ROOT: DEBUG
 ---
 
 spring:
