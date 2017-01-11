@@ -21,7 +21,7 @@ server:
 logging:
   level:
     org.springframework.web: DEBUG
-    org.springframework.controllers: INFO
+    org.springframework.controllers: DEBUG
     org.hibernate: DEBUG
 ---
 
