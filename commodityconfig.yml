@@ -20,9 +20,9 @@ server:
   port: 9014
 logging:
   level:
-    org.springframework.web: DEBUG
-    org.springframework.controllers: DEBUG
-    org.hibernate: DEBUG
+    org.springframework.web: INFO
+    org.springframework.controllers: INFO
+    org.hibernate: INFO
 ---
 
 spring:
