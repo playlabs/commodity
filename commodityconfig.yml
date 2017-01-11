@@ -18,7 +18,11 @@ spring:
    ddl-auto: update
 server:
   port: 9014
-
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.controllers: DEBUG
+    org.hibernate: INFO
 ---
 
 spring:
@@ -32,3 +36,5 @@ spring:
   show-sql: true
   hibernate:
    ddl-auto: update
+server:
+  port: 9012
