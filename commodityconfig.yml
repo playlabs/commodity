@@ -15,7 +15,7 @@ spring:
  jpa:
   show-sql: true
   hibernate:
-   ddl-auto: insert
+   ddl-auto: update
 server:
   port: 9014
 logging:
@@ -35,6 +35,6 @@ spring:
  jpa:
   show-sql: true
   hibernate:
-   ddl-auto: inser
+   ddl-auto: update
 server:
   port: 9012
