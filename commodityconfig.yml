@@ -1,5 +1,5 @@
 configuration:
-  projectName: commodity-test1
+  projectName: config-server-demo
 server:
   port: 8888
 
@@ -15,7 +15,7 @@ spring:
  jpa:
   show-sql: true
   hibernate:
-   ddl-auto: update
+   ddl-auto: insert
 server:
   port: 9014
 logging:
@@ -35,6 +35,6 @@ spring:
  jpa:
   show-sql: true
   hibernate:
-   ddl-auto: update
+   ddl-auto: inser
 server:
   port: 9012
